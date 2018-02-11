@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WelcomeShanghaiApp</string>
+    <string name="welcome_to_shanghai">Welcome to Shanghai!</string>
+    <string name="what_to_see">What To See</string>
+    <string name="what_to_eat">What To Eat</string>
+    <string name="useful_phrases">Useful Phrases</string>
+    <string name="when_to_go">When To Go</string>
+</resources>

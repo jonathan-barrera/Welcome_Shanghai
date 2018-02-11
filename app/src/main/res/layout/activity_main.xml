@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.welcomeshanghaiapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_shanghai"
+        android:textSize="45sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:id="@+id/what_to_see"
+        android:text="@string/what_to_see"
+        android:layout_width="match_parent"
+        style="@style/Category"
+        />
+
+    <TextView
+        android:id="@+id/what_to_eat"
+        android:layout_width="match_parent"
+        android:text="@string/what_to_eat"
+        style="@style/Category"/>
+
+    <TextView
+        android:id="@+id/when_to_go"
+        android:layout_width="match_parent"
+        android:text="@string/when_to_go"
+        style="@style/Category"/>
+
+    <TextView
+        android:id="@+id/useful_phrases"
+        android:layout_width="match_parent"
+        style="@style/Category"
+        android:text="@string/useful_phrases"/>
+
+</LinearLayout>

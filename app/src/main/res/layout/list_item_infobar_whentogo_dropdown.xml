@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/avg_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="avg high"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        tools:text="avg low"
+        android:id="@+id/avg_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        tools:text="avg rainfall"
+        android:id="@+id/avg_rainfall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>
